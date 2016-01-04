@@ -1,0 +1,22 @@
+body {
+	background: url('../images/patterns/simple_dashed/simple_dashed.png');
+	color: #fff;
+}
+
+.container {
+	max-width: 800px;
+}
+
+.menu ul li a {
+	color: #fff;
+	border-radius: 0%;
+	padding: 20px;
+}
+
+.menu ul li a:hover {
+	color: #000;
+}
+
+.view {
+	margin-top: 50px;
+}
