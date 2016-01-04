@@ -1,0 +1,16 @@
+.col_portfolio {
+	padding: 25px;
+}
+
+.thumbnail {
+	padding: 20px;
+}
+
+.portfolio {
+	color: #000;
+}
+
+.portfolio_thumb {
+	height: 150px;
+	overflow: hidden;
+}

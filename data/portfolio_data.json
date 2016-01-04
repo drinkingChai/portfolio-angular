@@ -4,13 +4,13 @@
 			"title": "CTS Website",
 			"blurb": "Charter Technology Solutions website redesigned",
 			"link": "",
-			"imageUrl": ""
+			"imageUrl": "images/portfolio/ctsthumb.png"
 		},
 		{
 			"title": "Flatlanders",
 			"blurb": "Codeschool AngularJS project",
 			"link": "",
-			"imageUrl": ""
+			"imageUrl": "images/portfolio/flatlandersthumb.png"
 		}
 	],
 	[
@@ -18,7 +18,7 @@
 			"title": "The Vagabond Knight",
 			"blurb": "The Vagabond Knight game",
 			"link": "",
-			"imageUrl": ""
+			"imageUrl": "images/portfolio/vkthumb.png"
 		}
 	]
 ]

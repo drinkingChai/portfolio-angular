@@ -1,4 +1,10 @@
-<div class="row">
-	<div class="col-md-6">
+<div class="container portfolio">
+	<div class="col-md-6 col_portfolio" ng-repeat="row in data">
+		<div class="row" ng-repeat="item in row">
+			<div class="thumbnail">
+				<h3>{{item.title}}</h3>
+				<img class="portfolio_thumb" ng-src="{{item.imageUrl}}"/>
+			</div>
+		</div>
 	</div>
 </div>
