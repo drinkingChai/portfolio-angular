@@ -1,10 +1,12 @@
 <div class="container portfolio">
+	<h2>Developer portfolio</h2>
 	<div class="col-md-6 col_portfolio" ng-repeat="row in data">
 		<div class="row" ng-repeat="item in row">
-			<div class="thumbnail">
+			<a href="{{item.link}}" class="btn-default thumbnail portfolio_thumb">
+				<img class="portfolio_thumb_img" ng-src="{{item.imageUrl}}"/>
 				<h3>{{item.title}}</h3>
-				<img class="portfolio_thumb" ng-src="{{item.imageUrl}}"/>
-			</div>
+				<h5>{{item.blurb}}</h5>
+			</a>
 		</div>
 	</div>
 </div>

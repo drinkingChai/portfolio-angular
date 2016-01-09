@@ -3,22 +3,28 @@
 		{
 			"title": "CTS Website",
 			"blurb": "Charter Technology Solutions website redesigned",
-			"link": "",
-			"imageUrl": "images/portfolio/ctsthumb.png"
+			"link": "http://wasifzaman.net/portfolio/cts_site",
+			"imageUrl": "images/portfolio/ctsthumb.PNG"
 		},
 		{
 			"title": "Flatlanders",
 			"blurb": "Codeschool AngularJS project",
-			"link": "",
-			"imageUrl": "images/portfolio/flatlandersthumb.png"
+			"link": "http://wasifzaman.net/portfolio/flatlanders-angularjs",
+			"imageUrl": "images/portfolio/flatlandersthumb.PNG"
 		}
 	],
 	[
 		{
 			"title": "The Vagabond Knight",
 			"blurb": "The Vagabond Knight game",
-			"link": "",
-			"imageUrl": "images/portfolio/vkthumb.png"
+			"link": "http://wasifzaman.net/portfolio/the-vagabond-knight",
+			"imageUrl": "images/portfolio/vkthumb.PNG"
+		},
+		{
+			"title": "Suggestion Box",
+			"blurb": "CodeAcademy AngularJS project",
+			"link": "http://wasifzaman.net/portfolio/suggestion-box",
+			"imageUrl": "images/portfolio/suggestionthumb.PNG"
 		}
 	]
 ]

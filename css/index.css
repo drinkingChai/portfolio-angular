@@ -1,6 +1,5 @@
 body {
-	background: url('../images/patterns/simple_dashed/simple_dashed.png');
-	color: #fff;
+	background: url('../images/patterns/pw_pattern/pw_pattern.png');
 }
 
 .container {
@@ -19,11 +18,11 @@ body {
 
 @keyframes background {
 	from { background-color: transparent; }
-	to { background-color: #969696; }
+	to { background-color: rgba(150, 150, 150, 0.2); }
 }
 
 .menu ul li a {
-	color: #fff;
+	color: #000;
 	border-radius: 0%;
 	padding: 10px;
 	margin: 10px;
@@ -37,12 +36,8 @@ body {
 	border-bottom: solid 3px #4e4b42;
 }
 
-.view {
-	margin-top: 50px;
-}
-
 .footer {
-	margin-top: 60px;
+	margin-top: 20px;
 	margin-bottom: 40px;
 	text-align: center;
 }
@@ -63,5 +58,5 @@ body {
 .footer ul li a:hover {
 	animation-name: background;
 	animation-duration: 0.5s;
-	background-color: #969696;
+	background-color: rgba(150, 150, 150, 0.2);
 }
