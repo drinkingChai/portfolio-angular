@@ -1,0 +1,18 @@
+{
+	"github": {
+		"link": "http://github.com/drinkingTea",
+		"icon": "images/social_media/black/github.png"
+	},
+	"twitter": {
+		"link": "http://twitter.com/NWZzz",
+		"icon": "images/social_media/black/twitter.png"
+	},
+	"facebook": {
+		"link": "http://facebook.com/wasifz",
+		"icon": "images/social_media/black/facebook.png"
+	},
+	"linkedin": {
+		"link": "http://www.linkedin.com/in/wasif-zaman-5662514b",
+		"icon": "images/social_media/black/linkedin.png"
+	}
+}

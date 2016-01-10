@@ -6,13 +6,14 @@
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+		<link rel="stylesheet" type="text/css" href="css/contact.css">
 		<script type="text/javascript" src="js/vendor/angular.min.js"></script>
 		<script type="text/javascript" src="js/vendor/angular-route.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
 	</head>
 
-	<body ng-app="Portfolio">
+	<body ng-app="Portfolio" ng-controller="HomeController">
 
 		<div class="menu">
 			<div class="container">
@@ -33,13 +34,12 @@
 			<div class="container">
 				<hr>
 				<ul class="nav nav-pills">
-					<li><a href="#/"><img src="images/social_media/black/github.png"></a></li>
-					<li><a href="#/skills"><img src="images/social_media/black/linkedin.png"></a></li>
-					<li><a href="#/portfolio"><img src="images/social_media/black/facebook.png"></a></li>
-					<li><a href="#/github"><img src="images/social_media/black/twitter.png"></a></li>
+					<li ng-repeat="social_media in data">
+						<a href="{{social_media.link}}"><img ng-src="{{social_media.icon}}"></a>
+					</li>
 				</ul>
-				<p>Phone: 516-225-9976</p>
-				<p>Email: teatocode@gmail.com</p>
+				<p>Phone: {{myInfo.phone}}</p>
+				<p>Email: {{myInfo.email}}</p>
 			</div>
 		</div>
 
@@ -48,6 +48,7 @@
 		<script type="text/javascript" src="js/app.js"></script>
 
 		<!-- Controllers -->
+		<script type="text/javascript" src="js/controllers/HomeController.js"></script>
 		<script type="text/javascript" src="js/controllers/PortfolioController.js"></script>
 
 		<!-- Directives -->
@@ -55,6 +56,8 @@
 
 		<!-- Services -->
 		<script type="text/javascript" src="js/services/portfolioData.js"></script>
+		<script type="text/javascript" src="js/services/homeData.js"></script>
+		<script type="text/javascript" src="js/services/myData.js"></script>
 
 	</body>
 </html>
