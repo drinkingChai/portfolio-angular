@@ -1,0 +1,20 @@
+<div class="skills">
+	<div class="container">
+		
+
+		<div class="skill_container" ng-repeat="skill in skills">
+		{{skill.skillName}}
+			<div class="progress_container" ng-repeat="subSkill in skill.subSkills">
+				{{subSkill.skillName}}
+				<div class="progress">
+					<div class="progress-bar" style="width: {{subSkill.progress}}%; background-color: #{{subSkill.bgColor}}">
+						<span class="progress_bar_text" ng-hide="subSkill.status">{{subSkill.progress}}%</span>
+						<span class="progress_bar_text">{{subSkill.status}}</span>
+						<span class="progress_bar_text">{{subSkill.date}}</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>

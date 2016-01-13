@@ -13,6 +13,10 @@ app.config(function($routeProvider) {
 	.when('/contact', {
 		templateUrl: 'views/contact.html'
 	})
+	.when('/skills', {
+		controller: 'SkillsController',
+		templateUrl: 'views/skills.html'
+	})
 	.otherwise({
 		redirectTo: '/'
 	})

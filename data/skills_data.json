@@ -1,0 +1,90 @@
+[
+	{
+		"skillName": "Full Stack (% based on comfort level with 100% feeling expert!!)",
+		"subSkills":
+		[
+			{
+				"skillName": "HTML",
+				"date": "",
+				"progress": "95",
+				"bgColor": "27525E"
+			},
+			{
+				"skillName": "CSS",
+				"progress": "85",
+				"date": "",
+				"bgColor": "41899E"
+			},
+			{
+				"skillName": "jQuery",
+				"date": "",
+				"progress": "60",
+				"bgColor": "27525E"
+			},
+			{
+				"skillName": "JS",
+				"progress": "50",
+				"bgColor": "5BC0DE"
+			},
+			{
+				"skillName": "Rails",
+				"date": "",
+				"progress": "10",
+				"bgColor": "27525E"
+			},
+			{
+				"skillName": "Angular",
+				"progress": "35",
+				"date": "",
+				"bgColor": "41899E"
+			}
+		]
+	},
+	{
+		"skillName": "CompTIA Trifecta",
+		"subSkills":
+		[
+			{
+				"skillName": "A+",
+				"status": "Completed",
+				"date": "Sept 2013",
+				"progress": "100",
+				"bgColor": "27525E"
+			},
+			{
+				"skillName": "Network+",
+				"progress": "100",
+				"status": "Completed",
+				"date": "Oct 2013",
+				"bgColor": "41899E"
+			},
+			{
+				"skillName": "Security+",
+				"progress": "100",
+				"status": "Completed",
+				"date": "Nov 2013",
+				"bgColor": "5BC0DE"
+			}
+		]
+	},
+	{
+		"skillName": "Cisco",
+		"subSkills":
+		[
+			{
+				"skillName": "CCNA",
+				"status": "Completed",
+				"date": "Dec 2013",
+				"progress": "100",
+				"bgColor": "27525E"
+			},
+			{
+				"skillName": "CCNP",
+				"status": "Incomplete",
+				"date": "",
+				"progress": "50",
+				"bgColor": "400000"
+			}
+		]
+	}
+]

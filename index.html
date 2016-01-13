@@ -7,13 +7,14 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/portfolio.css">
 		<link rel="stylesheet" type="text/css" href="css/contact.css">
+		<link rel="stylesheet" type="text/css" href="css/skills.css">
 		<script type="text/javascript" src="js/vendor/angular.min.js"></script>
 		<script type="text/javascript" src="js/vendor/angular-route.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
 	</head>
 
-	<body ng-app="Portfolio" ng-controller="HomeController">
+	<body ng-app="Portfolio">
 
 		<div class="menu">
 			<div class="container">
@@ -30,7 +31,8 @@
 			<div ng-view></div>
 		</div>
 
-		<div class="footer">
+		<!--use directive here-->
+		<div class="footer" ng-controller="HomeController">
 			<div class="container">
 				<hr>
 				<ul class="nav nav-pills">
@@ -50,6 +52,7 @@
 		<!-- Controllers -->
 		<script type="text/javascript" src="js/controllers/HomeController.js"></script>
 		<script type="text/javascript" src="js/controllers/PortfolioController.js"></script>
+		<script type="text/javascript" src="js/controllers/SkillsController.js"></script>
 
 		<!-- Directives -->
 
@@ -58,6 +61,7 @@
 		<script type="text/javascript" src="js/services/portfolioData.js"></script>
 		<script type="text/javascript" src="js/services/homeData.js"></script>
 		<script type="text/javascript" src="js/services/myData.js"></script>
+		<script type="text/javascript" src="js/services/skillsData.js"></script>
 
 	</body>
 </html>
