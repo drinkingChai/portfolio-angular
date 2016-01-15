@@ -7,7 +7,7 @@
 			<div class="progress_container" ng-repeat="subSkill in skill.subSkills">
 				{{subSkill.skillName}}
 				<div class="progress">
-					<div class="progress-bar" style="width: {{subSkill.progress}}%; background-color: #{{subSkill.bgColor}}">
+					<div class="progress-bar" style="width: {{subSkill.progress}}%; background-color: #{{subSkill.bgColor}}; color: #{{subSkill.color}}">
 						<span class="progress_bar_text" ng-hide="subSkill.status">{{subSkill.progress}}%</span>
 						<span class="progress_bar_text">{{subSkill.status}}</span>
 						<span class="progress_bar_text">{{subSkill.date}}</span>
