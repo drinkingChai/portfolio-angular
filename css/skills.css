@@ -1,5 +1,9 @@
-skill-progress {
+.skills .container {
 	text-align: center;
+}
+
+.skillsets {
+	margin-top: 25px;
 }
 
 .skill_container {
