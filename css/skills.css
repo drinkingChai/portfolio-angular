@@ -1,4 +1,30 @@
+skill-progress {
+	text-align: center;
+}
+
+.skill_container {
+	padding: 0 20px;
+}
+
+.skill_title {
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.progress {
+	margin-top: 5px;
+}
+
+.progress_container {
+	margin-top: 10px;
+}
+
+.sub_skill_title {
+}
+
 .skills .progress {
+	border-radius: 0%;
+	border: solid 1px #ccc9c9;
 }
 
 .skills .progress-bar {

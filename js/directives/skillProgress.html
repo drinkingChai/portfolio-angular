@@ -1,0 +1,13 @@
+<div class="skill_container">
+	<span class="skill_title">{{info.skillName}}</span>
+	<div class="progress_container" ng-repeat="subSkill in info.subSkills">
+		<span class="sub_skill_title">{{subSkill.skillName}}</span>
+		<div class="progress">
+			<div class="progress-bar progress-bar-striped" style="width: {{subSkill.progress}}%; background-color: #{{subSkill.bgColor}}; color: #{{subSkill.color}}">
+				<span class="progress_bar_text" ng-hide="subSkill.status">{{subSkill.progress}}%</span>
+				<span class="progress_bar_text">{{subSkill.status}}</span>
+				<span class="progress_bar_text">{{subSkill.date}}</span>
+			</div>
+		</div>
+	</div>
+</div>
